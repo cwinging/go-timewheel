@@ -5,7 +5,7 @@ import (
 )
 
 var (
-	DefaultTimeWheel, _ = NewTimeWheel(time.Second, 120)
+	DefaultTimeWheel, _ = NewTimeWheel(200*time.Millisecond, 1200)
 )
 
 func init() {
